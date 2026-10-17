@@ -26,3 +26,14 @@
     }else{
         alert("senha incorreta")
     }  
+
+    const nota1 = Number(prompt("digite a primeira nota"))
+    const nota2 = Number(prompt("digite a segunda nota"))
+    const media = (nota1 + nota2) / 2 
+    if (media >= 7) {
+        alert("aprovado")
+    } else if (media >= 5) {
+        alert("recuperação")
+    } else {
+        alert("reprovado")
+    }
